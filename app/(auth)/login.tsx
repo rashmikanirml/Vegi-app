@@ -28,7 +28,7 @@ export default function LoginScreen() {
 
   return (
     <Screen>
-      <ScrollView contentContainerStyle={{ gap: 12 }}>
+      <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: 12 }}>
         <Title>Welcome back</Title>
         <Field
           label="Email"

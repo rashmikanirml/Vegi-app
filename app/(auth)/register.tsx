@@ -40,7 +40,7 @@ export default function RegisterScreen() {
 
   return (
     <Screen>
-      <ScrollView contentContainerStyle={{ gap: 12, paddingBottom: 40 }}>
+      <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: 12, paddingBottom: 40 }}>
         <Title>Create account</Title>
         <Muted>Choose Buyer or Seller. Admin accounts are created in Supabase only.</Muted>
         <View style={{ flexDirection: 'row', gap: 8 }}>

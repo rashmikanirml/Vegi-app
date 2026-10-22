@@ -26,7 +26,7 @@ export default function ForgotPasswordScreen() {
 
   return (
     <Screen>
-      <ScrollView contentContainerStyle={{ gap: 12 }}>
+      <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: 12 }}>
         <Title>Reset password</Title>
         <Muted>We will email a reset link to your account.</Muted>
         <Field

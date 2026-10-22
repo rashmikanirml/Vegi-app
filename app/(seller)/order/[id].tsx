@@ -35,7 +35,7 @@ export default function SellerOrderDetailScreen() {
 
   return (
     <Screen>
-      <ScrollView contentContainerStyle={{ gap: 12 }}>
+      <ScrollView keyboardShouldPersistTaps="handled" contentContainerStyle={{ gap: 12 }}>
         <Title>{order.listing?.name ?? 'Order'}</Title>
         <StatusBadge status={order.status} />
         <Card>
